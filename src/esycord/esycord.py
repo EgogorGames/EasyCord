@@ -224,7 +224,7 @@ class client(Client):
         def decorator(func):
             func_args = str(signature(func))
             func_arg_len = int(int(len(func_args[1:len(func_args) - 1].split()) / 2) - 1)
-            cmd = DefaultCommand(name, guild, func)
+            cmd = DefaultCommand(name, func, guild)
             if func_arg_len == 0:
                 commands_w0.append(cmd)
             elif func_arg_len == 1:
@@ -304,7 +304,7 @@ class client(Client):
                     #commands with 2 arg
                     
                     for cmd_w2 in commands_w2:
-                        if cmd_w1.guild == None:
+                        if cmd_w2.guild == None:
                             await cmd_w1.funcd(Esyraction(message), arg1, arg2)
                         else:
                             if message.guild == cmd_w1.guild:
@@ -385,10 +385,6 @@ class Arg():
         return self.arg
 
 # Code
-
-def env(key : str = "TOKEN") -> str:
-    load_dotenv()
-    return os.getenv(key)
 
 class dev():
     r"""
