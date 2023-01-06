@@ -30,11 +30,7 @@ from discord_webhook import *
 
 # Another modules import
 
-from random import *
-from datetime import *
-import os
-import requests
-from dotenv import load_dotenv
+from random import choice
 from datetime import datetime
 from inspect import signature
 
@@ -223,7 +219,14 @@ class client(Client):
         """
         def decorator(func):
             func_args = str(signature(func))
-            func_arg_len = int(int(len(func_args[1:len(func_args) - 1].split()) / 2) - 1)
+            func_args_lst = func_args[1:len(func_args) - 1].split()
+            func_arg_len = 0
+            for farg in func_args_lst:
+                if farg[int(len(farg) - 1)] == ":":
+                    pass
+                else:
+                    func_arg_len = func_arg_len + 1
+            func_arg_len = func_arg_len - 1
             cmd = DefaultCommand(name, func, guild)
             if func_arg_len == 0:
                 commands_w0.append(cmd)
