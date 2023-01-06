@@ -16,6 +16,6 @@ __title__ = 'esycord'
 __author__ = 'EgogorGames'
 __license__ = 'MIT'
 __copyright__ = 'Copyright 2022-2023 EgogorGames'
-__version__ = '1.1.0'
+__version__ = '1.1.3'
 
 from .esycord import *
