@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='easycord',
+    name='esycord',
     version='0.6',
     license='MIT',
     author="EgogorGames",
@@ -10,7 +10,7 @@ setup(
     packages=find_packages('src'),
     package_dir={'': 'src'},
     url='https://github.com/EgogorGames/EasyCord',
-    keywords='easycord',
+    keywords='esycord',
     install_requires=[
           'scikit-learn',
       ],
