@@ -1,11 +1,12 @@
 from setuptools import setup, find_packages
 
+readme = ''
 with open('README.rst') as f:
     readme = f.read()
 
 setup(
       name='esycord',
-      version='1.1.0',
+      version='1.1.3',
       license='MIT',
       description="EasyCord - Python module for much easier creating discord bots on python!",
       author="EgogorGames",
@@ -19,14 +20,11 @@ setup(
       install_requires=[
             'discord',
             'datetime',
-            'random',
-            'inspect',
             'discord_webhook'
       ],
       python_requires=">=3.8.0",
       project_urls={
-        "Documentation": "https://discordpy.readthedocs.io/en/latest/",
-        "Issue tracker": "https://github.com/Rapptz/discord.py/issues",
+        "Documentation": "https://docs.egogorgames.com/esycord/",
       },
       classifiers=[
             'Intended Audience :: Developers',
