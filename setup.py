@@ -6,7 +6,7 @@ with open('README.rst') as f:
 
 setup(
       name='esycord',
-      version='1.1.3',
+      version='1.1.4',
       license='MIT',
       description="EasyCord - Python module for much easier creating discord bots on python!",
       author="EgogorGames",
