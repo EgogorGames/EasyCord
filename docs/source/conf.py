@@ -54,6 +54,6 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False,
     'github_url': 'https://github.com/EgogorGames/EasyCord/',
-    'html-logo': 'https://i.imgur.com/8MmPk9c.png'
+    'html-logo': 'https://i.imgur.com/NGavnw7.png'
 }
 
