@@ -11,6 +11,10 @@ EasyCord | esycord
    :target: https://pypi.python.org/pypi/esycord
    :alt: PyPI supported Python versions
 
+.. image:: https://i.imgur.com/8MmPk9c.png
+   :target: https://pypi.python.org/pypi/esycord
+   :alt: EasyCord Logo
+
 EasyCord - Python module for much easier creating discord bots on python!
 
 Installing
