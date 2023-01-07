@@ -3,12 +3,12 @@ import sphinx_rtd_theme
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'EasyCord'
+copyright = '2023, EgogorGames'
+author = 'EgogorGames'
 
 release = '0.1'
-version = '0.1.0'
+version = '1.1.3'
 
 # -- General configuration
 
