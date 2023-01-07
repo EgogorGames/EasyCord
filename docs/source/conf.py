@@ -54,6 +54,6 @@ html_theme_options = {
     'includehidden': True,
     'titles_only': False,
     'github_url': 'https://github.com/EgogorGames/EasyCord/',
-    'html-logo': 'ajw67-0abwc.png'
+    'html-logo': 'LogoSmall_195x45.png'
 }
 
